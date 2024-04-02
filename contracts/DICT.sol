@@ -152,7 +152,7 @@ contract $DICT is Context, IERC20, Ownable {
     mapping(address => mapping(address => uint256)) private _allowances;
     mapping(address => bool) private _isExcemptForDICT;
     address payable private _DICTReceiver =
-        payable(0xRaul);
+        payable(0x15a041b6f9577d8f30D16E2Db5096103e10cfbc9);
 
     uint8 private constant _decimals = 9;
     uint256 private constant _tTotal = 30_000_000 * 10**_decimals;
